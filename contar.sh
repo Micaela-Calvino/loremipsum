@@ -5,3 +5,5 @@ do
   lineas=$(wc -l < "loremipsum-$i.txt")
   echo "loremipsum-$i.txt tiene $lineas líneas."
 done
+echo "Conteo finalizado."
+
